@@ -1,97 +1,91 @@
 # YouTube DJ
 
-**A free, work-in-progress DJ device for Ableton Live and Max for Live.**
+**A free DJ device for Ableton Live and Max for Live.**  
+**Release: v1.0**
 
-YouTube DJ brings YouTube video playback, DJ-style mixing controls, sample decks, cue and loop tools, recording, and resampling into a single Max for Live device. It is designed for experimenting, practicing, and building creative DJ workflows inside Ableton Live.
+YouTube DJ combines YouTube video playback, DJ mixing, cue and loop controls, sample decks, recording, and resampling in one Max for Live device. It is designed for DJ practice, creative performance, and working with audio inside Ableton Live.
 
-> **Development status: v1.0 (work in progress)**  
-> This project is **not finished or fully tested**. Some controls, audio-import paths, and Live integrations may be incomplete or unreliable. Features and behavior may change as development continues. Please do not rely on the current build for critical or uninterrupted live performances.
+## ☕ SUPPORT YOUTUBE DJ — BUY ME A COFFEE
 
-## ☕ SUPPORT DEVELOPMENT — BUY ME A COFFEE
+**YouTube DJ is available for free and is independently created and maintained. If you enjoy using it, please consider supporting the project. Your contribution helps with maintenance, compatibility updates, and future improvements.**
 
-**YouTube DJ is developed independently and offered for free. If you find it useful, please consider supporting continued development, bug fixes, and new features.**
+### **☕ [BUY ME A COFFEE — Support Yohsuke Nakano](https://buymeacoffee.com/yohsukenak)**
 
-### **☕ [BUY ME A COFFEE — Support YouTube DJ](https://buymeacoffee.com/yohsukenak)**
-
-Your support helps keep this project moving forward. Thank you!
+Thank you for helping keep YouTube DJ accessible to everyone!
 
 ## Features
 
-- **Two YouTube decks (A/B):** Video playback with independent deck controls and a DJ-oriented interface.
-- **2-deck / 4-deck layouts:** A/B are YouTube playback decks; the additional C/D decks are designed for sample playback.
-- **Mixer controls:** Channel faders, crossfader, EQ, and effects controls, subject to the limitations of the available audio paths.
-- **Cue and loop tools:** Cue points, hot cues, loop controls, and timeline interaction.
-- **Sample pads:** Assign and play audio material using dedicated pads, with individual playback and level controls.
-- **Recording and resampling:** Record material and work with it in a waveform-oriented playback/editor section.
-- **Audio import tools:** File import, drag-and-drop, and Ableton Live clip integration are being developed and refined.
-- **MIDI Learn:** Mapping of supported controls to external MIDI controllers is under development.
-- **Playlists and history:** Deck-oriented browsing, playlists, and playback-history functions.
-- **Multilingual interface:** Language selection and translated controls, with coverage still being refined.
+- **Two YouTube decks (A/B):** Play videos using independent deck controls in a DJ-oriented interface.
+- **2-deck and 4-deck layouts:** Use Decks A/B for YouTube playback, with additional Decks C/D dedicated to sampling in 4-deck mode.
+- **DJ mixer:** Channel faders, crossfader, EQ, effects, and monitoring controls.
+- **Cue and loop controls:** Set cue points, work with hot cues, and adjust loop ranges.
+- **Sample pads:** Assign and trigger audio material with individual playback and level controls.
+- **Audio import:** Work with compatible audio files and audio clips from Ableton Live.
+- **Recording and resampling:** Capture audio and work with recorded material in a waveform-based section.
+- **Tempo and pitch tools:** Playback adjustments for supported audio paths, subject to YouTube player limitations.
+- **MIDI Learn:** Map supported device controls to a MIDI controller.
+- **Playlists and playback history:** Organize and revisit material for each YouTube deck.
+- **Multilingual interface:** Japanese, English, German, French, Spanish, Portuguese, and Italian.
 
-**Important:** These describe the project's intended and partially implemented feature set, not a guarantee that every feature is complete or works reliably in the current build.
+Certain controls depend on the limitations of YouTube playback, the operating system, and the available Ableton Live audio routing.
 
 ## Requirements
 
 - Ableton Live with **Max for Live** support.
-- A computer with an internet connection for YouTube playback.
-- A current `.amxd` build of YouTube DJ.
+- An internet connection for YouTube playback.
+- The YouTube DJ `.amxd` device file.
 
-Development has primarily taken place on **Windows 11 with Ableton Live 12.3**. **macOS compatibility has not yet been verified.** Other Live versions and system configurations may behave differently.
+The primary development environment has been **Windows 11 and Ableton Live 12.3**. **macOS compatibility has not been verified.** Behavior on other systems and Live versions may vary.
 
-## Getting Started
+## Installation and Getting Started
 
-1. Download the available YouTube DJ `.amxd` build from this repository when published.
+1. Download the YouTube DJ `.amxd` file from the repository or its releases.
 2. Load the device onto an audio track in Ableton Live.
-3. Click **OPEN** to access the main DJ interface.
-4. Select an interface language when prompted.
-5. Choose videos for Deck A and Deck B and explore the available mixer, cue, loop, and sample controls.
-6. Use the 4-deck layout to access the additional sample decks when available.
+3. Click **OPEN** to open the main YouTube DJ window.
+4. Choose your interface language when prompted. You can change it later in the settings.
+5. Load YouTube videos into Decks A and B.
+6. Use the mixer, cues, loops, samples, and recording controls as needed.
+7. Switch to 4-deck mode to access the additional sample decks.
 
-For now, save your Live Set before testing experimental features.
+## Important: YouTube Login and Advertisements
 
-## YouTube Login and Advertising — Important Limitation
+**Signing in to a YouTube account is not supported in YouTube DJ due to the embedded playback implementation and its technical restrictions.** Account-specific features, including YouTube Premium benefits, should not be assumed to apply inside this device.
 
-**YouTube account login is not supported in YouTube DJ because of the embedded playback implementation and its technical restrictions.** You cannot assume that account-based features or YouTube Premium benefits will be available inside this device.
+**YouTube advertisements may play before or during video playback.** Advertisement delivery, playback restrictions, interruptions, and video availability are controlled by YouTube and are outside the control of YouTube DJ. This device does **not** block, skip, or bypass YouTube ads.
 
-**YouTube advertisements may appear before or during video playback.** Ads, interruptions, playback availability, and player behavior are controlled by YouTube, not by YouTube DJ. The device does **not** provide an ad blocker or a method to bypass YouTube advertising.
+**Plan your DJ sets and transitions with advertisements in mind.** Ads, network conditions, unavailable videos, regional restrictions, and embedding limitations can interrupt or delay playback. Uninterrupted, gapless DJ performance with YouTube videos cannot be guaranteed.
 
-**Plan your mixing and transitions with advertising in mind.** Playback may be interrupted or delayed, so seamless cueing and uninterrupted DJ sets cannot be guaranteed. Video availability may also depend on region, embedding permissions, or other YouTube restrictions.
+## Copyright and Responsible Use
 
-## Copyright, Content Rights, and Responsible Use
+**YouTube DJ is a playback and creative-performance tool. It does not grant any license or permission to use copyrighted music or videos.**
 
-**YouTube DJ does not grant permission to use, record, remix, distribute, broadcast, or publicly perform copyrighted material.**
+- All rights to YouTube videos, recordings, compositions, artwork, and other third-party content remain with their respective copyright owners.
+- Users are responsible for complying with applicable copyright laws, YouTube's Terms of Service, and any applicable license conditions.
+- Public performances, livestreams, DJ mix recordings, broadcasting, redistribution, sampling, and remixing may require separate permission or licenses.
+- **Recording or sampling music through YouTube DJ or Ableton Live does not automatically grant permission to publish, share, sell, or otherwise reuse it.**
+- Use your own audio/video, properly licensed works, or content for which you have the necessary permissions.
+- Video availability in YouTube does not mean the content is cleared for every other use.
 
-- Rights to YouTube videos, music, images, and other third-party content remain with their respective owners.
-- You are responsible for complying with applicable copyright laws, licensing requirements, and YouTube's terms and policies.
-- Public performances, livestreams, recordings, remixes, sampled material, and redistributed audio/video may require separate permission or licenses, even when a video is available to watch on YouTube.
-- Recording or sampling content inside Ableton Live does **not** automatically grant rights to publish or reuse that content.
-- Use your own material, properly licensed material, or material for which you otherwise have the necessary rights.
+YouTube DJ is an independent third-party project. It is **not affiliated with, endorsed by, or sponsored by YouTube, Google, or Ableton**. Product names and trademarks are the property of their respective owners.
 
-This project is an independent third-party tool and is **not affiliated with, endorsed by, or sponsored by YouTube, Google, or Ableton**. All relevant names and trademarks belong to their respective owners.
+## Feedback and Bug Reports
 
-## Current Development Priorities
-
-The following areas remain under active development and testing:
-
-- More reliable cue/loop range dragging and waveform interaction.
-- Audio-file drag-and-drop and selected Live-clip loading.
-- Sample assignment, playback state, and buffer management.
-- Recording, resampling, and waveform editing.
-- Send to Live, audio-track detection, and other Live integrations.
-- 2/4-deck switching, MIDI mapping, layout responsiveness, and multilingual consistency.
-
-Please report reproducible bugs through GitHub Issues, including your OS, Ableton Live version, steps to reproduce, and screenshots when appropriate.
+If you encounter an issue, please open a GitHub Issue with your operating system, Ableton Live version, steps to reproduce, and relevant screenshots. Reports help maintain compatibility and improve the experience for everyone.
 
 ## License and Distribution
 
-A source-code license has **not yet been specified**. Public access to a repository does not, by itself, grant permission to redistribute or modify its contents. Check this repository for updated licensing information before reusing the code or assets.
+YouTube DJ is provided free of charge. Refer to any `LICENSE` file included in this repository for permissions covering modification, reuse, or redistribution. If no license is provided, copyright remains with the author and no additional rights are granted merely because the repository is public.
 
-## ☕ Help Keep YouTube DJ Free
+This software's availability does not confer rights to third-party music, videos, images, or other content.
 
-If this device is useful to you—or you would like to help improve it—**supporting its development is greatly appreciated**:
+---
 
-### **[☕ Buy Me a Coffee — Yohsuke Nakano](https://buymeacoffee.com/yohsukenak)**
+## ☕ SUPPORT THE PROJECT
+
+**If YouTube DJ helps with your DJ practice or music production, please consider supporting its creator. Every contribution is appreciated and helps sustain the project.**
+
+### **☕ [BUY ME A COFFEE — Yohsuke Nakano](https://buymeacoffee.com/yohsukenak)**
 
 **Developer:** Yohsuke Nakano  
 **Project:** YouTube DJ for Max for Live  
-**Version:** v1.0 (work in progress)
+**Version:** v1.0
